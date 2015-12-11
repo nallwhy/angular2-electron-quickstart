@@ -1,0 +1,39 @@
+{
+  "name": "angular2-electron-quickstart",
+  "version": "1.0.0",
+  "description": "Simple Angular2-Electron project quickstart guide",
+  "main": "main.js",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "electron main.js",
+    "package": "electron-packager ./ angular2-electron-quickstart --platform=darwin --arch=x64 --version=0.35.4 --out=/Users/json/Desktop/Angular2-Quickstart --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nallwhy/angular2-electron-quickstart.git"
+  },
+  "keywords": [
+    "Angular2",
+    "Electron",
+    "quickstart"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nallwhy/angular2-electron-quickstart/issues"
+  },
+  "homepage": "https://github.com/nallwhy/angular2-electron-quickstart#readme",
+  "dependencies": {
+    "angular2": "2.0.0-alpha.52",
+    "systemjs": "0.19.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-alpha.14",
+    "zone.js": "0.5.8"
+  },
+  "devDependencies": {
+    "live-server": "^0.8.2",
+    "typescript": "^1.7.3"
+  }
+}
